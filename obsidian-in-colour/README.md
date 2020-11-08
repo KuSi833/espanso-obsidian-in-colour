@@ -19,3 +19,11 @@ The colour and size are then looked up in a local dictionary, if there is a matc
 This is useful for colour if one might want to use a specific value.
 
 The dictionaries can be found in the python file "obsidian_colour.py", which every user should customise to their own needs.
+
+## Installation
+Make sure you have already installed [Espanso](https://espanso.org/install/) first.
+```
+espanso install obsidian-in-colour
+espanso restart
+```
+Make sure to create a `scripts` directory in the `espanso` directory and store the **obsidian_colour.py** script there.
