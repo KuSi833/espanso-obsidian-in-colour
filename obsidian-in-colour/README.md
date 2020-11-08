@@ -13,8 +13,6 @@ This package is meant to work in combination with Obsidian - the application for
 
 ## Functionality:
 
-![demo](oic_demo.gif)
-
 Query is activated by the keyword `:col `, after which the user is asked for a colour and a text size using espanso forms.
 
 The colour and size are then looked up in a local dictionary, if there is a match the property is replaced with the corresponding value. If no match is found the form inputs are left as is. 
