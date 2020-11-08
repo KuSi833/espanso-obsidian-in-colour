@@ -1,9 +1,21 @@
 ---
-package_name: "simple-package"
-package_title: "Simple Package"
-package_desc: "A simple package to say Hello World."
+package_name: "espanso-obsidian-in-colour"
+package_title: "Obsidian in colour"
+package_desc: "Makes the process of adding colour to Obsidian a tad bit easier."
 package_version: "0.1.0"
-package_author: "Federico Terzi"
-package_repo: "https://github.com/federico-terzi/espanso-package-example"
+package_author: "Karlo Miličić"
+package_repo: "https://github.com/federico-terzi/espanso-obsidian-in-colour"
 ---
-A simple package to say "Hello World"
+
+# Obsidian in Colour
+
+This package is meant to work in combination with Obsidian - the application for note taking.
+
+## Functionality:
+
+Query is activated by the keyword `:col `, after which the user is asked for a colour and a text size using espanso forms.
+
+The colour and size are then looked up in a local dictionary, if there is a match the property is replaced with the corresponding value. If no match is found the form inputs are left as is. 
+This is useful for colour if one might want to use a specific value.
+
+The dictionaries can be found in the python file "obsidian_colour.py", which every user should customise to their own needs.
